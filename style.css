@@ -1,0 +1,197 @@
+body {
+    font-family:  Arial, Helvetica, sans-serif;
+    background-color: #f6f6eb;
+    margin:0px;
+    padding:0px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 25px 60px;
+    background-color:  #f6f6eb;
+
+    
+}
+
+header{
+
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    
+}
+nav div {
+    display:flex;
+    gap:30px;
+}
+nav a {
+    text-decoration: none;
+    color: #1d1d1f;
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+nav a:hover {
+    opacity: 0.6;
+    color:grey;
+}
+#home {
+    min-height: 650px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.logo {
+    font-size: 18px;
+     
+    font-weight:600;
+}
+#home h1 {
+    font-size: 64px;
+}
+#home p {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+#home img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+#about {
+    padding: 250px 200px;
+    
+}
+#about h1 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+#about p {
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+#home > div {
+    width: 50%;
+}
+#home a {
+      text-decoration: none;
+    color: #1d1d1f;
+    transition: 0.3s;
+}
+#projects {
+    padding: 120px 60px;
+}
+.fs{
+
+    font-size: 20px;
+}
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    
+}
+#projects h1{
+    text-align: center;
+
+}
+.container img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.container article {
+    border: 1px solid #ddd;
+    padding-bottom: 30px;
+    overflow: hidden;
+    background: white;
+    border-radius: 12px;
+   
+}
+.container article a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #1d1d1f;
+    text-decoration: none;
+    font-size: 14px;
+}
+.container article a:hover {
+    opacity: 0.6;
+}
+#skills {
+    padding: 120px 60px;
+    min-height: 680px;
+}
+
+#skills h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.skill {
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: white;
+    text-align: center;
+    
+}
+
+.skill i {
+    font-size: 35px;
+}
+
+.skill h2 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+    
+
+#contact {
+    padding: 120px 60px;
+    background-color: #050932;
+    border: rgb(10, 10, 9) solid 1px;
+
+}
+form {
+    max-width: 400px;
+    margin: auto;
+    gap: 20px;
+    color: #f6f6eb;
+}
+.contact{
+    text-align: center;
+    color: #f6f6eb;
+}
+.footer{
+    background-color:#050932;
+    color: #f6f6eb;
+    text-align: center;
+    
+}
+.button {
+    grid-column: 2;
+    width: 150px;
+    margin-top: 15px;
+    width:auto
+}
